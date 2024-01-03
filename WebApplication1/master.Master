@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="WebApplication1.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="stil.css"/>
+</head>
+<body>
+    <header>
+    <div id="foto"><a href="default.aspx"><img src="images/logo.png" /></a></div>
+ 
+</header>
+
+
+    <nav>
+        <a href="default.aspx">Anasayfa</a>
+        <a href="#">Ürünler</a>
+        <a href="hakkımızda.aspx">Hakkımızda</a>
+        <a href="kayıtolgirisyap.aspx">Kayıt Ol / Giriş Yap</a>
+
+
+    </nav>
+    <!--<footer>
+        &copy; 2023 E-Ticaret Mağazası
+    </footer>
+    -->
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    
+    
+</body>
+</html>

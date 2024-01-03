@@ -1,0 +1,129 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    float: right;
+}
+
+.icerik {
+    
+}
+
+.cart {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Slider Stillendirmeleri */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+    .slide img {
+        width: 125px;
+        height: 125px;
+    }
+
+/* Ekstra stillendirmeler */
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+/* Genel link stillemesi */
+a {
+    text-decoration: none; /* Alt çizgiyi kaldırma */
+    color: white; /* Link rengi */
+}
+
+    /* Ziyaret edilmiş link */
+    a:visited {
+        color: lightgray; /* Ziyaret edilmiş link rengi */
+    }
+
+    /* Link üzerine gelindiğinde */
+    a:hover {
+        text-decoration: underline; /* Alt çizgi ekleme */
+        color: lightgray; /* Link üzerine gelindiğindeki renk */
+    }
+
+    /* Tıklanan link durumu */
+    a:active {
+        color: lightgray; /* Tıklanan link rengi */
+    }
+#foto img{
+    height: 150px;
+    width: 150px;
+}
+.hakki{
+    align-content: center;
+    text-align: center;
+    margin-left: 130px;
+}
+
+
+.temizle {
+    clear: both;
+}
